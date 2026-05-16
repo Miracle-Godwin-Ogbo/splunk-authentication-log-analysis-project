@@ -97,7 +97,37 @@ To import the provided authentication log dataset into Splunk for analysis.
 
 ---
 
-# 3. Log Verification
+---
+
+# 3. Index Configuration
+
+## Purpose
+
+To create and assign a dedicated index for authentication log analysis within Splunk.
+
+## Action Performed
+
+- Uploaded the authentication dataset
+- Configured a custom index named:
+
+```plaintext
+login_logs
+```
+
+### Output
+
+![Upload Index](Screenshots_upload_index.png)
+
+
+![Index Name Custom](screenshots_Custom_Index.png)
+
+
+![Index Named](screenshots_Index_Named.png)
+
+---
+
+
+# 4. Log Verification
 
 ## Purpose
 
@@ -115,7 +145,7 @@ index=login_logs
 
 ---
 
-# 4. Failed Login Attempt Analysis
+# 5. Failed Login Attempt Analysis
 
 ## Purpose
 
@@ -139,7 +169,7 @@ index=login_logs status=failed | stats count
 
 ---
 
-# 5. Suspicious IP Address Investigation
+# 6. Suspicious IP Address Investigation
 
 ## Purpose
 
@@ -167,7 +197,7 @@ The repeated failed authentication attempts from a single IP may indicate brute-
 
 ---
 
-# 6. Username Activity Analysis
+# 7. Username Activity Analysis
 
 ## Purpose
 
@@ -195,7 +225,7 @@ The repeated appearance of the same username may indicate targeted authenticatio
 
 ---
 
-# 7. Suspicious Activity Detection
+# 8. Suspicious Activity Detection
 
 ## Purpose
 
