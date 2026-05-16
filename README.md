@@ -191,7 +191,7 @@ The repeated appearance of the same username may indicate targeted authenticatio
 
 ### Output
 
-![Username Analysis](screenshots/06-username-analysis.png)
+![Username Analysis](screenshots_username_analysis.png)
 
 ---
 
@@ -219,7 +219,7 @@ These patterns may indicate brute-force or unauthorized access attempts.
 
 ### Output
 
-![Suspicious Activity Detection](screenshots/07-suspicious-activity.png)
+![Suspicious Activity Detection](screenshots_suspicious_activity.png)
 
 ---
 
