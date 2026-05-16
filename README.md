@@ -93,7 +93,7 @@ To import the provided authentication log dataset into Splunk for analysis.
 
 ### Output
 
-![Dataset Upload](screenshots/02-dataset-upload.png)
+![Dataset Upload](screenshots_dataset_upload.png)
 
 ---
 
@@ -111,7 +111,7 @@ index=login_logs
 
 ### Output
 
-![Log Verification](screenshots/03-log-verification.png)
+![Log Verification](screenshots_log_verification.png)
 
 ---
 
@@ -135,7 +135,7 @@ index=login_logs status=failed | stats count
 
 ### Output
 
-![Failed Login Analysis](screenshots/04-failed-login-analysis.png)
+![Failed Login Analysis](screenshots_failed_login_analysis.png)
 
 ---
 
@@ -163,7 +163,7 @@ The repeated failed authentication attempts from a single IP may indicate brute-
 
 ### Output
 
-![Suspicious IP Analysis](screenshots/05-ip-analysis.png)
+![Suspicious IP Analysis](screenshots_ip_analysis.png)
 
 ---
 
